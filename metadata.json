@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix PES \u0026 eFootball Studio 2027 / PSP Match Simulator",
+  "description": "Comprehensive football editing suite, 211 FIFA national teams \u0026 continental leagues database, kit importer, transfer sync, career youth academy, AI injury model, and playable 3D match engine with PSP handheld controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

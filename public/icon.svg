@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#0e3a7e" />
+      <stop offset="50%" stop-color="#061536" />
+      <stop offset="100%" stop-color="#020816" />
+    </radialGradient>
+    <radialGradient id="ballGlow" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="65%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#94a3b8" />
+    </radialGradient>
+    <linearGradient id="goldRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+  <rect width="500" height="500" x="6" y="6" rx="124" fill="none" stroke="url(#goldRim)" stroke-width="8" opacity="0.8" />
+
+  <!-- Outer Glow Ring -->
+  <circle cx="256" cy="240" r="176" fill="none" stroke="#38bdf8" stroke-width="4" opacity="0.4" stroke-dasharray="12 8" />
+
+  <!-- Ball Base -->
+  <circle cx="256" cy="240" r="160" fill="url(#ballGlow)" stroke="#1e293b" stroke-width="6" />
+
+  <!-- Modern 2026 Triunfo Curved Ribbon Patterns -->
+  <path d="M 176 128 C 220 180, 292 180, 336 128 C 300 110, 212 110, 176 128 Z" fill="#dc2626" opacity="0.9" />
+  <path d="M 112 210 C 160 210, 185 275, 155 320 C 120 290, 100 245, 112 210 Z" fill="#0284c7" opacity="0.9" />
+  <path d="M 400 210 C 352 210, 327 275, 357 320 C 392 290, 412 245, 400 210 Z" fill="#16a34a" opacity="0.9" />
+  <path d="M 210 370 C 240 330, 272 330, 302 370 C 270 395, 242 395, 210 370 Z" fill="#eab308" opacity="0.9" />
+
+  <!-- Central Pentagonal Badge -->
+  <polygon points="256,188 300,220 283,272 229,272 212,220" fill="#091b40" stroke="#f8fafc" stroke-width="5" />
+  <circle cx="256" cy="235" r="14" fill="#38bdf8" />
+
+  <!-- Ball Seam Curves -->
+  <path d="M 256 80 Q 256 188 256 188" stroke="#334155" stroke-width="4" stroke-linecap="round" fill="none" />
+  <path d="M 300 220 Q 380 200 416 240" stroke="#334155" stroke-width="4" stroke-linecap="round" fill="none" />
+  <path d="M 283 272 Q 330 330 310 395" stroke="#334155" stroke-width="4" stroke-linecap="round" fill="none" />
+  <path d="M 229 272 Q 182 330 202 395" stroke="#334155" stroke-width="4" stroke-linecap="round" fill="none" />
+  <path d="M 212 220 Q 132 200 96 240" stroke="#334155" stroke-width="4" stroke-linecap="round" fill="none" />
+
+  <!-- Shading overlay -->
+  <ellipse cx="210" cy="160" rx="60" ry="30" fill="#ffffff" opacity="0.35" transform="rotate(-30 210 160)" />
+
+  <!-- Bottom Label Banner -->
+  <rect x="64" y="420" width="384" height="60" rx="30" fill="#091b40" stroke="#38bdf8" stroke-width="3" />
+  <text x="256" y="458" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="3">PES 2027 STUDIO</text>
+</svg>
